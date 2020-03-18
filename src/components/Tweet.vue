@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="tweet-item">
         <h2>{{author}}</h2>
         <p>{{content}}</p>
     </div>

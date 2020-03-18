@@ -35,13 +35,28 @@ export default {
 body{
     margin: 0;
     font-family: 'Nunito SemiBold';
+        box-sizing: border-box;
+        padding: 0 20px 0 20px;
+
 }
 
 #tweets{
+
    display:grid;
    grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap:20px;
    justify-items: center;
    text-align: center;
+   justify-content: center;
+}
+#tweet-item{
+   width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+       border: solid 1px;
+
 }
 
 h1, p{
